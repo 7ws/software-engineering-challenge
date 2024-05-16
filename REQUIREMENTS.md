@@ -50,8 +50,7 @@ Zen of Python, by Tim Peters — or run `import this` on a Python 3 shell.
     1. The CSV file must have the columns: `name`, `email`, `phone`, `company`, `address`.
     1. The system must create a new carrier if the `email` is not already registered.
     1. The system must update an existing carrier if the `email` is already registered.
-    1. The system must validate the `email` and `phone` columns.
-    1. The system must validate the `company` column.
+    1. The system must validate the contents of all columns in each row.
 
 
 ## Business rules
